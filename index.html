@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>random number guessing </title>
+        <style>
+            #n{
+                background-color: yellow;
+                width: 35%;
+                  
+                   border: 10px dotted black;
+                   border-width: 10;
+                   border: length 100px;
+               }
+        </style>
+        <script>
+            function randomcol(){
+                var randomColor = Math.floor(Math.random()*16777215).toString(16);
+                document.body.style.backgroundColor = "#" + randomColor;
+                color.innerHTML = "#" + randomColor;
+            }
+           
+     </script>
+        
+         
+         
+    </head>
+    <body>
+        <div id="n">
+        <h1 style="color: red;">Random colour Generator</h1>
+         <button style="border-radius: 50%; color: black; font-size: 20; background-color: springgreen; position: relative;left: 4%;" onclick=randomcol()>click_me</button>
+        </div>
+         
+        
+        </body>
+</html>
